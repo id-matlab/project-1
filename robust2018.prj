@@ -1,0 +1,156 @@
+<deployment-project plugin="plugin.toolbox" plugin-version="1.0">
+  <configuration build-checksum="2412204623" file="C:\Users\ppeeling\git\robust-matlab-2018\robust2018.prj" location="C:\Users\ppeeling\git\robust-matlab-2018" name="robust2018" target="target.toolbox" target-name="Package Toolbox">
+    <param.appname>robust2018</param.appname>
+    <param.authnamewatermark>Paul Peeling</param.authnamewatermark>
+    <param.email>paul.peeling@mathworks.co.uk</param.email>
+    <param.company>MathWorks</param.company>
+    <param.summary />
+    <param.description>Code and examples accompanying the session "Developing Robust MATLAB Code" at the MATLAB Computational Finance Conference 2018</param.description>
+    <param.screenshot>${PROJECT_ROOT}\finance-conference-signature.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.output>${PROJECT_ROOT}\robust2018.mltbx</param.output>
+    <param.products.name>
+      <item>MATLAB</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+    </param.products.id>
+    <param.products.version>
+      <item>9.4</item>
+    </param.products.version>
+    <param.platforms />
+    <param.guid>0b8e6fb3-8c8e-4d92-b4a0-27e66c584354</param.guid>
+    <param.exclude.filters />
+    <param.exclude.pcodedmfiles>true</param.exclude.pcodedmfiles>
+    <param.examples>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;examples&gt;
+   &lt;exampleCategory name="robust2018"&gt;
+      &lt;example name="CreateMockObjectExample" type="html"&gt;
+         &lt;file type="source"&gt;/robust2018/html/CreateMockObjectExample.html&lt;/file&gt;
+         &lt;file type="main"&gt;/robust2018/CreateMockObjectExample.mlx&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="PropertyValidation" type="html"&gt;
+         &lt;file type="source"&gt;/robust2018/html/PropertyValidation.html&lt;/file&gt;
+         &lt;file type="main"&gt;/robust2018/PropertyValidation.mlx&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="findArea" type="html"&gt;
+         &lt;file type="source"&gt;/robust2018/html/findArea.html&lt;/file&gt;
+         &lt;file type="main"&gt;/robust2018/findArea.mlx&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+   &lt;/exampleCategory&gt;
+&lt;/examples&gt;</param.examples>
+    <param.demosxml />
+    <param.apps>
+      <file>${PROJECT_ROOT}\tbx\apps\ConfigurePlot.mlappinstall</file>
+    </param.apps>
+    <param.registered.apps />
+    <param.docs>${PROJECT_ROOT}\tbx\info.xml</param.docs>
+    <param.getting.started.guide>${PROJECT_ROOT}\tbx\doc\GettingStarted.mlx</param.getting.started.guide>
+    <param.matlabpath.excludes />
+    <param.javaclasspath.excludes />
+    <param.exported.on.package>true</param.exported.on.package>
+    <param.release.start>R2018a</param.release.start>
+    <param.release.end>latest</param.release.end>
+    <param.release.current.only>false</param.release.current.only>
+    <param.compatiblity.windows>true</param.compatiblity.windows>
+    <param.compatiblity.macos>true</param.compatiblity.macos>
+    <param.compatiblity.linux>true</param.compatiblity.linux>
+    <param.compatiblity.matlabonline>true</param.compatiblity.matlabonline>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.version />
+      <param.output />
+      <param.platforms />
+      <param.exclude.filters />
+      <param.exclude.pcodedmfiles />
+      <param.demosxml />
+      <param.registered.apps />
+      <param.matlabpath.excludes />
+      <param.javaclasspath.excludes />
+      <param.release.current.only />
+      <param.compatiblity.windows />
+      <param.compatiblity.macos />
+      <param.compatiblity.linux />
+      <param.compatiblity.matlabonline />
+    </unset>
+    <fileset.rootdir>
+      <file>${PROJECT_ROOT}\tbx</file>
+    </fileset.rootdir>
+    <fileset.rootfiles>
+      <file>${PROJECT_ROOT}\tbx\apps</file>
+      <file>${PROJECT_ROOT}\tbx\demos.xml</file>
+      <file>${PROJECT_ROOT}\tbx\doc</file>
+      <file>${PROJECT_ROOT}\tbx\info.xml</file>
+      <file>${PROJECT_ROOT}\tbx\robust2018</file>
+    </fileset.rootfiles>
+    <fileset.depfun.included />
+    <fileset.depfun.excluded />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\ppeeling\git\robust-matlab-2018" name="robust2018.mltbx" optional="false">C:\Users\ppeeling\git\robust-matlab-2018\robust2018.mltbx</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2018a</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="polyspacebugfinder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
